@@ -42,3 +42,17 @@ console.log(hello);
 hello.unshift(100);
 console.log(hello);
 
+// check that is present is not??
+
+console.log(hello.includes(4));
+console.log(h.includes("babul"));
+
+// check je value ta koto num index eh ache
+
+console.log(h.indexOf("babul"));
+console.log(hello.indexOf(10));
+
+// isArray diye check korte parbo je eita array kina
+
+console.log(Array.isArray(h));
+
