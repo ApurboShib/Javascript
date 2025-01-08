@@ -30,3 +30,12 @@ while(n <= 10) {
     console.log(sum);
     n++;
 }
+
+
+// traversed for loop
+
+console.log("start the for loops right here");
+
+for(let x = 0; x <= 10; x++) {
+    console.log(x);
+}
