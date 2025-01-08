@@ -19,3 +19,14 @@ while(num <= 10) {
     console.log( " hdjahdkjdkjakdja", num);
     num++;
 }
+
+// print the number 1-10
+
+let n = 1;
+let sum = 0;
+while(n <= 10) {
+    console.log(n);
+    sum+=n;
+    console.log(sum);
+    n++;
+}
