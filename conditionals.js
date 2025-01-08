@@ -19,3 +19,13 @@ else if (100 == 100) {
 else{
     console.log("this is false");
 }
+
+if(100 < 19 && 19 < 48) {
+    console.log("this is true");
+}
+else if (100 == 100 || 48 >= 3839) {
+    console.log("this is hardly yes");
+}
+else{
+    console.log("this is false");
+}
