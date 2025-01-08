@@ -8,3 +8,10 @@ console.log(a * b * c);
 console.log(a / b / c);
 console.log(a + b % c);
 console.log(100 % 5);
+b+=10;
+console.log(b);
+
+var first = "JOY";
+var second = "SHIB"
+var name = first + second;
+console.log(name);
