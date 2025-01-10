@@ -23,3 +23,25 @@ const word = ['ajke', 'amar', 'Mon', 'valo', 'nai'];
 console.log(word.join());
 console.log(word.join('.'));
 console.log(word.join('|'));
+
+// string concat
+
+const a = "Joy"
+const b = "Shib";
+const c = a + " " + b;
+console.log(c);
+const fullName = a.concat(b);
+console.log(fullName);
+const fullName2 = a.concat(' ').concat(b);
+console.log(fullName2);
+
+// reverse the string.
+
+const sample = "i am the ultimate legend";
+
+let rev = ' ';
+for(const d of sample) {
+rev = d + rev;
+
+}
+console.log(rev);
