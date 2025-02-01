@@ -36,3 +36,18 @@ console.log(user.id);
 console.log(user.address);
 console.log(user.address.country);
 console.log(user.gender);
+
+const user2 = {
+    id : 111,
+    name : 'Pori Didir Majhar',
+    address: {
+        city : 'Cumilla',
+        country : 'Bnagladesh',
+        phone : 1765159810
+    }
+}
+console.log(user2);
+console.log(user2.id);
+console.log(user2.address.phone);
+console.log(user2.address?.village);
+console.log(user.address.village);
