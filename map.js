@@ -30,4 +30,4 @@ console.log(result);
  const lenthes = friends.map(frnd => frnd.length);
  console.log(lenthes);
  const firstChar = friends.map(frnd => frnd[0]);
- console.log(firstChar);
+ console.log(firstChar); 
